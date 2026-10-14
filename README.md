@@ -70,6 +70,18 @@ npm run build
 
 ---
 
-## ☁️ Deployment
+## ☁️ Deployment to Cloudflare Pages
 
-Configured for static export (`output: 'export'`) in `next.config.ts`, making it ideal for deployment on **Cloudflare Pages**, **Vercel**, or **Netlify**.
+Configured for static export (`output: 'export'`) in `next.config.ts`, generating pure edge-cached static assets in `out/`.
+
+### Cloudflare Pages Git Settings:
+- **Framework Preset**: `None` *(Do NOT select "Next.js", which runs @cloudflare/next-on-pages and conflicts with Next 16)*
+- **Root directory**: `/` *(Leave blank/root)*
+- **Build command**: `npm run build`
+- **Build output directory**: `out`
+- **Environment variables**: `NODE_VERSION` = `20`
+
+### 1-Click CLI Deployment:
+```bash
+npm run deploy
+```
