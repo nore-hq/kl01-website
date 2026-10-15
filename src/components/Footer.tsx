@@ -47,6 +47,9 @@ export default function Footer() {
             <a href="#services" onClick={() => soundFX.playClick()} style={{ fontSize: "11px", letterSpacing: "0.15em", color: "rgba(255,255,255,0.7)" }}>
               SERVICES
             </a>
+            <a href="#local-hub" onClick={() => soundFX.playClick()} style={{ fontSize: "11px", letterSpacing: "0.15em", color: "#E60012" }}>
+              MANACAUD &amp; MUTTATHARA HUB
+            </a>
             <a href="#location" onClick={() => soundFX.playClick()} style={{ fontSize: "11px", letterSpacing: "0.15em", color: "rgba(255,255,255,0.7)" }}>
               LOCATION
             </a>
@@ -85,13 +88,23 @@ export default function Footer() {
           </div>
         </div>
 
-        {/* Bottom copyright line */}
-        <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "space-between", alignItems: "center", paddingTop: "20px", fontSize: "9.5px", fontFamily: "var(--font-mono)", color: "rgba(255,255,255,0.4)", gap: "10px" }}>
+        {/* Localized SEO Keyword & Service Areas Strip */}
+        <div style={{ padding: "18px 0 10px 0", borderBottom: "1px solid rgba(255,255,255,0.04)", fontSize: "9px", fontFamily: "var(--font-mono)", color: "rgba(255,255,255,0.45)", lineHeight: 1.8, letterSpacing: "0.1em" }}>
           <div>
-            © {new Date().getFullYear()} KL-01 CAR SPA &amp; DETAILERS.
+            <strong style={{ color: "rgba(255,255,255,0.7)" }}>SPECIALIZATIONS:</strong> Best Car Spa in Manacaud • Best Car Wash in Muttathara • Certified Auto Repair Garage &amp; Service Centre • Ceramic Coating • Graphene Shield • Self-Healing PPF • Machine Mirror Polish • Foam Wash Kallumoodu • Denting &amp; Painting
+          </div>
+          <div style={{ marginTop: "4px" }}>
+            <strong style={{ color: "rgba(255,255,255,0.7)" }}>SERVICE AREAS:</strong> Manacaud (Manakkad) • Muttathara (Muttathura) • Kallumoodu • Kamaleswaram • Ambalathara • Attukal • Chalai • East Fort • Thiruvallam • Thiruvananthapuram (Trivandrum) — 695008
+          </div>
+        </div>
+
+        {/* Bottom copyright line */}
+        <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "space-between", alignItems: "center", paddingTop: "16px", fontSize: "9.5px", fontFamily: "var(--font-mono)", color: "rgba(255,255,255,0.4)", gap: "10px" }}>
+          <div>
+            © {new Date().getFullYear()} KL-01 CAR SPA &amp; DETAILERS. ALL RIGHTS RESERVED.
           </div>
           <div>
-            KALLUMOODU, MUTTATHARA, TRIVANDRUM — 695008
+            OFFICIAL WEBSITE: <a href="https://kl01carspa.in/" style={{ color: "#E60012", textDecoration: "none" }}>KL01CARSPA.IN</a>
           </div>
         </div>
       </div>

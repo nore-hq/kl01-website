@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:geo="http://www.google.com/geo/schemas/sitemap/1.0"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://kl01carspa.in/</loc>
+    <lastmod>2026-10-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://kl01carspa.in/assets/logo.png</image:loc>
+      <image:title>KL-01 Car Spa &amp; Detailers - Best Car Spa &amp; Garage in Manacaud &amp; Muttathara</image:title>
+      <image:caption>Premier automotive detailing atelier and auto repair garage in Kallumoodu, Muttathara and Manacaud Trivandrum</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://kl01carspa.in/polish/</loc>
+    <lastmod>2026-10-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://kl01carspa.in/assets/logo.png</image:loc>
+      <image:title>Machine Car Polishing &amp; Paint Correction Trivandrum</image:title>
+    </image:image>
+  </url>
+</urlset>

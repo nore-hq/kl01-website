@@ -1,0 +1,8 @@
+# Robots.txt for KL-01 Car Spa & Detailers
+# Domain: https://kl01carspa.in/
+
+User-agent: *
+Allow: /
+
+# Sitemap Location
+Sitemap: https://kl01carspa.in/sitemap.xml

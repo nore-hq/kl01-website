@@ -7,9 +7,21 @@ import MobileBottomBar from "@/components/MobileBottomBar";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Machine Car Polish // KL-01 Car Spa Trivandrum",
+  title: "Car Polishing & Paint Correction // KL-01 Car Spa Manacaud & Muttathara",
   description:
-    "Professional machine car polishing, swirl mark removal, and deep showroom gloss restoration at KL-01 Car Spa in Kallumoodu, Trivandrum.",
+    "Professional 3-stage machine car polishing, swirl mark removal, and deep showroom mirror gloss restoration at KL-01 Car Spa in Kallumoodu, Manacaud & Muttathara, Trivandrum.",
+  alternates: {
+    canonical: "https://kl01carspa.in/polish/",
+  },
+  keywords: [
+    "car polishing manacaud",
+    "car polish muttathara",
+    "machine polish trivandrum",
+    "paint correction manakkad",
+    "swirl mark removal kallumoodu",
+    "mirror finish polish trivandrum",
+    "kl01 car spa polish",
+  ],
 };
 
 export default function PolishPage() {

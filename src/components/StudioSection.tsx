@@ -9,15 +9,15 @@ export default function StudioSection() {
     <section id="location" style={{ padding: "clamp(60px, 8vw, 90px) 0", backgroundColor: "#060709", borderBottom: "1px solid rgba(230, 0, 18, 0.18)" }}>
       <div className="rr-container">
         {/* Minimal Header */}
-        <div style={{ textAlign: "center", maxWidth: "680px", margin: "0 auto clamp(28px, 5vw, 40px) auto" }}>
+        <div style={{ textAlign: "center", maxWidth: "780px", margin: "0 auto clamp(28px, 5vw, 40px) auto" }}>
           <span className="font-mono" style={{ fontSize: "clamp(9px, 1.8vw, 10px)", letterSpacing: "0.25em", color: "#E60012", textTransform: "uppercase", display: "block", marginBottom: "8px" }}>
-            STUDIO LOCATION
+            STUDIO &amp; GARAGE LOCATION // MANACAUD &amp; MUTTATHARA
           </span>
           <h2 className="font-cinzel" style={{ fontSize: "clamp(1.7rem, 4vw, 3rem)", fontWeight: 700, color: "#FFFFFF", letterSpacing: "0.05em", marginBottom: "8px" }}>
-            VISIT OUR <span style={{ color: "#E60012" }}>STUDIO</span>
+            VISIT OUR <span style={{ color: "#E60012" }}>STUDIO &amp; GARAGE</span>
           </h2>
           <p className="font-serif" style={{ fontSize: "clamp(0.95rem, 2vw, 16px)", color: "var(--text-secondary)", fontStyle: "italic", padding: "0 10px" }}>
-            Kallumoodu, Muttathara, Thiruvananthapuram
+            Kallumoodu, Manacaud - Muttathara Road, Thiruvananthapuram – 695008
           </p>
         </div>
 
@@ -26,8 +26,8 @@ export default function StudioSection() {
           {/* Interactive Google Map Iframe */}
           <div style={{ height: "clamp(260px, 45vw, 420px)", width: "100%", borderRadius: "2px", overflow: "hidden", position: "relative" }}>
             <iframe
-              title="KL-01 Car Spa Studio Location"
-              src="https://maps.google.com/maps?q=Kallumoodu+Muttathara+Thiruvananthapuram+Kerala&t=&z=15&ie=UTF8&iwloc=&output=embed"
+              title="KL-01 Car Spa Studio Location - Best Car Spa & Garage in Manacaud and Muttathara"
+              src="https://maps.google.com/maps?q=KL-01+Car+Spa+Kallumoodu+Muttathara+Manacaud+Thiruvananthapuram+Kerala&t=&z=15&ie=UTF8&iwloc=&output=embed"
               width="100%"
               height="100%"
               style={{ border: 0, filter: "invert(90%) hue-rotate(180deg) contrast(1.15)" }}
@@ -50,7 +50,7 @@ export default function StudioSection() {
                 textTransform: "uppercase",
               }}
             >
-              KALLUMOODU // MUTTATHARA, TRIVANDRUM
+              KALLUMOODU // MANACAUD &amp; MUTTATHARA, TRIVANDRUM
             </div>
           </div>
 
