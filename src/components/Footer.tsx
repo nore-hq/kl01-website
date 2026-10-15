@@ -36,7 +36,6 @@ export default function Footer() {
             </div>
           </div>
 
-          {/* Quick Links */}
           <div style={{ display: "flex", flexWrap: "wrap", gap: "20px" }} className="font-cinzel">
             <a href="#atelier" onClick={() => soundFX.playClick()} style={{ fontSize: "11px", letterSpacing: "0.15em", color: "rgba(255,255,255,0.7)" }}>
               ATELIER
@@ -46,9 +45,6 @@ export default function Footer() {
             </a>
             <a href="#services" onClick={() => soundFX.playClick()} style={{ fontSize: "11px", letterSpacing: "0.15em", color: "rgba(255,255,255,0.7)" }}>
               SERVICES
-            </a>
-            <a href="#local-hub" onClick={() => soundFX.playClick()} style={{ fontSize: "11px", letterSpacing: "0.15em", color: "#E60012" }}>
-              MANACAUD &amp; MUTTATHARA HUB
             </a>
             <a href="#location" onClick={() => soundFX.playClick()} style={{ fontSize: "11px", letterSpacing: "0.15em", color: "rgba(255,255,255,0.7)" }}>
               LOCATION
@@ -85,16 +81,6 @@ export default function Footer() {
               <span>TOP</span>
               <ChevronUp size={12} />
             </button>
-          </div>
-        </div>
-
-        {/* Localized SEO Keyword & Service Areas Strip */}
-        <div style={{ padding: "18px 0 10px 0", borderBottom: "1px solid rgba(255,255,255,0.04)", fontSize: "9px", fontFamily: "var(--font-mono)", color: "rgba(255,255,255,0.45)", lineHeight: 1.8, letterSpacing: "0.1em" }}>
-          <div>
-            <strong style={{ color: "rgba(255,255,255,0.7)" }}>SPECIALIZATIONS:</strong> Best Car Spa in Manacaud • Best Car Wash in Muttathara • Certified Auto Repair Garage &amp; Service Centre • Ceramic Coating • Graphene Shield • Self-Healing PPF • Machine Mirror Polish • Foam Wash Kallumoodu • Denting &amp; Painting
-          </div>
-          <div style={{ marginTop: "4px" }}>
-            <strong style={{ color: "rgba(255,255,255,0.7)" }}>SERVICE AREAS:</strong> Manacaud (Manakkad) • Muttathara (Muttathura) • Kallumoodu • Kamaleswaram • Ambalathara • Attukal • Chalai • East Fort • Thiruvallam • Thiruvananthapuram (Trivandrum) — 695008
           </div>
         </div>
 

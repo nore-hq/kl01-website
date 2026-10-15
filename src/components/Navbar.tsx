@@ -33,7 +33,6 @@ export default function Navbar() {
     { name: "ATELIER", href: "#atelier" },
     { name: "POLISH", href: "#polish" },
     { name: "SERVICES", href: "#services" },
-    { name: "LOCAL HUB", href: "#local-hub" },
     { name: "LOCATION", href: "#location" },
   ];
 
