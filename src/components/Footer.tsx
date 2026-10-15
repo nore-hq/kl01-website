@@ -98,8 +98,25 @@ export default function Footer() {
           </div>
         </div>
 
+        {/* NORE Agency Brand Credit (Matches Reference Image) */}
+        <div style={{ display: "flex", justifyContent: "center", paddingTop: "24px", paddingBottom: "6px" }}>
+          <a
+            href="https://norehq.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            onClick={() => soundFX.playClick()}
+            className="nore-credit-pill"
+            title="Designed & Engineered by NORE"
+          >
+            <span className="nore-credit-dot" />
+            <span className="nore-credit-text">Designed &amp; Engineered by</span>
+            <span className="nore-credit-brand">NORE</span>
+            <span className="nore-credit-arrow">→</span>
+          </a>
+        </div>
+
         {/* Bottom copyright line */}
-        <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "space-between", alignItems: "center", paddingTop: "16px", fontSize: "9.5px", fontFamily: "var(--font-mono)", color: "rgba(255,255,255,0.4)", gap: "10px" }}>
+        <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "space-between", alignItems: "center", paddingTop: "14px", borderTop: "1px solid rgba(255,255,255,0.04)", fontSize: "9.5px", fontFamily: "var(--font-mono)", color: "rgba(255,255,255,0.4)", gap: "10px" }}>
           <div>
             © {new Date().getFullYear()} KL-01 CAR SPA &amp; DETAILERS. ALL RIGHTS RESERVED.
           </div>
