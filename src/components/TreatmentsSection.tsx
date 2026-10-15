@@ -316,7 +316,7 @@ export default function TreatmentsSection() {
                 marginBottom: "8px",
               }}
             >
-              SERVICES OFFERED // TRIVANDRUM STUDIO
+              SERVICES OFFERED // TRIVANDRUM CAR SPA
             </span>
             <h2
               className="font-cinzel"
@@ -626,7 +626,7 @@ export default function TreatmentsSection() {
               NEED A CUSTOM PACKAGE OR VEHICLE INSPECTION?
             </h4>
             <p className="font-sans" style={{ fontSize: "12.5px", color: "rgba(255, 255, 255, 0.65)", lineHeight: 1.6 }}>
-              Visit our Kallumoodu studio in Trivandrum or message us on WhatsApp with photos of your car for an honest assessment and personalized estimate.
+              Visit our Kallumoodu car spa in Trivandrum or message us on WhatsApp with photos of your car for an honest assessment and personalized estimate.
             </p>
           </div>
 

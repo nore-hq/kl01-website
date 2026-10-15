@@ -11,10 +11,10 @@ export default function StudioSection() {
         {/* Minimal Header */}
         <div style={{ textAlign: "center", maxWidth: "680px", margin: "0 auto clamp(28px, 5vw, 40px) auto" }}>
           <span className="font-mono" style={{ fontSize: "clamp(9px, 1.8vw, 10px)", letterSpacing: "0.25em", color: "#E60012", textTransform: "uppercase", display: "block", marginBottom: "8px" }}>
-            STUDIO LOCATION
+            CAR SPA LOCATION
           </span>
           <h2 className="font-cinzel" style={{ fontSize: "clamp(1.7rem, 4vw, 3rem)", fontWeight: 700, color: "#FFFFFF", letterSpacing: "0.05em", marginBottom: "8px" }}>
-            VISIT OUR <span style={{ color: "#E60012" }}>STUDIO</span>
+            VISIT OUR <span style={{ color: "#E60012" }}>CAR SPA</span>
           </h2>
           <p className="font-serif" style={{ fontSize: "clamp(0.95rem, 2vw, 16px)", color: "var(--text-secondary)", fontStyle: "italic", padding: "0 10px" }}>
             Kallumoodu, Muttathara, Thiruvananthapuram
@@ -26,7 +26,7 @@ export default function StudioSection() {
           {/* Interactive Google Map Iframe */}
           <div style={{ height: "clamp(260px, 45vw, 420px)", width: "100%", borderRadius: "2px", overflow: "hidden", position: "relative" }}>
             <iframe
-              title="KL-01 Car Spa Studio Location"
+              title="KL-01 Car Spa Location"
               src="https://maps.google.com/maps?q=KL-01+Car+Spa+Kallumoodu+Muttathara+Manacaud+Thiruvananthapuram+Kerala&t=&z=15&ie=UTF8&iwloc=&output=embed"
               width="100%"
               height="100%"
@@ -83,7 +83,7 @@ export default function StudioSection() {
               </a>
 
               <a
-                href="https://wa.me/919567512720?text=Hello%20KL-01%20Car%20Spa,%20I%20would%20like%20to%20visit%20your%20studio."
+                href="https://wa.me/919567512720?text=Hello%20KL-01%20Car%20Spa,%20I%20would%20like%20to%20visit%20your%20car%20spa."
                 target="_blank"
                 rel="noopener noreferrer"
                 onClick={() => soundFX.playThrottle()}

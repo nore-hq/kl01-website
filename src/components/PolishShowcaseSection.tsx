@@ -435,7 +435,7 @@ export default function PolishShowcaseSection() {
                     TRIVANDRUM
                   </div>
                   <div className="font-mono" style={{ fontSize: "9px", color: "rgba(255, 255, 255, 0.5)", textTransform: "uppercase" }}>
-                    Kallumoodu Studio
+                    Kallumoodu Car Spa
                   </div>
                 </div>
 
